@@ -93,13 +93,15 @@ Open up start menu and go to anaconda prompt and input this command to install
 
 
 
-### Models
+
+
+## Models
   PYTorch 
  - ForestBuddy-V1
    
-### Training 
+## Training 
 
 
-### FTP Server
+## FTP Server
 
-### Scripts 
+## Scripts 
