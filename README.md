@@ -13,9 +13,9 @@ Make sure to download the following softwares in the order listed.
 ### 1. Visual Studio Community Edition 
 [Link](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
 
-Click on Individual Components tab and scroll down to Compiler s, build tools, and runtimes.
+Download should appear in Downloads list. Run file. Click on Individual Components tab and scroll down to Compiler s, build tools, and runtimes.
 
-Tick the boxes starting with C++ ie. (C++ 2022 Redistributable MSMs, C++ 2022 Redistributable Update)
+Scroll down the list and tick *only* the boxes starting with C++ ie. (C++ 2022 Redistributable MSMs, C++ 2022 Redistributable Update)
 
 **_Make sure to not tick the boxes of the packages labeled [Deprecated, Out of Support]_**
 
@@ -27,15 +27,15 @@ Tick the boxes starting with C++ ie. (C++ 2022 Redistributable MSMs, C++ 2022 Re
 
 *Nvidia Developer Account may be necessary*
 
-Upon installation, Confirm you want the packages to install and press next until you see  Install. Click install.
+Upon installation, next > Confirm you want the packages to install and press next until you see  Install. Click install.
 
 
 ### 3. Anaconda
 [Link](https://www.anaconda.com/download/success)
 
-Run the installer and press Next and Agree to terms of Service.
+Run the installer and press Next and be sure to Agree to Terms of Service.
 
-In **Advanced Installation Option** be sure to have checked 
+#### In **Advanced Installation Option** be sure to have checked 
 - Add Anaconda to my PATH Environment variable
 - Register Anadconda as my default Python
 
@@ -53,7 +53,7 @@ In **Advanced Installation Option** be sure to have checked
 Choose appropriate options for Target Platform to download
 - ie. ***Windows, x86_64, Windows 10/11, exe (local)*** 
 
-Run installer > Agree > **Custom(Advanced)** > Make sure that ONLY **CUDA** is ticked. > Next 
+Run installer > Agree and Continue > **Custom(Advanced)** > Make sure that ONLY **CUDA** is ticked. > Next 
 
 
 ### 5. cuDNN
