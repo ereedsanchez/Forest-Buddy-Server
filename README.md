@@ -4,14 +4,13 @@ Forest Buddy Server
 ## Forest Buddy Install 
 Prerequisites
 - Windows 10 | Windows 11
-- Processor
-- Ram
-- Nvidia RTX4060ti | Nvidia 4090
+- Intel/AMD Processors [Has not been tested on the M1 Chipset]
+- Nvidia 20 series GPU and above
 
 ## Install
+Make sure to download the following softwares in the order listed.
 
-
-### Visual Studio Community Edition 
+### 1. Visual Studio Community Edition 
 [Link](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
 
 Click on Individual Components tab and scroll down to Compiler s, build tools, and runtimes.
@@ -23,7 +22,7 @@ Tick the boxes starting with C++ ie. (C++ 2022 Redistributable MSMs, C++ 2022 Re
 **Install >  Continue**
 
 
-### Nvidia Nsight Visual Studio Edition 
+### 2. Nvidia Nsight Visual Studio Edition 
 [Link](https://developer.nvidia.com/nsight-visual-studio-edition)
 
 *Nvidia Developer Account may be necessary*
@@ -31,7 +30,7 @@ Tick the boxes starting with C++ ie. (C++ 2022 Redistributable MSMs, C++ 2022 Re
 Upon installation, Confirm you want the packages to install and press next until you see  Install. Click install.
 
 
-### Anaconda
+### 3. Anaconda
 [Link](https://www.anaconda.com/download/success)
 
 Run the installer and press Next and Agree to terms of Service.
@@ -44,7 +43,7 @@ In **Advanced Installation Option** be sure to have checked
 
 
 
-### CUDA Toolkit  12.1
+### 4. CUDA Toolkit  12.1
 [Link](https://developer.nvidia.com/cuda-12-1-0-download-archive)
 
 
@@ -57,7 +56,7 @@ Choose appropriate options for Target Platform to download
 Run installer > Agree > **Custom(Advanced)** > Make sure that ONLY **CUDA** is ticked. > Next 
 
 
-### cuDNN
+### 5. cuDNN
 [Link](https://developer.nvidia.com/rdp/cudnn-archive)
 
 *Nvidia Developer Account may be necessary*
@@ -75,7 +74,7 @@ From the downloaded cuDNN archive go into **x64** and copy the contents inside t
 Do the same with files from the **include** and **bin** folders
 
 
-### Pytorch
+### 6. Pytorch
 [Link](https://pytorch.org/get-started/locally/)
 
 Make sure to choose Appropriately for the system configured. 
