@@ -103,6 +103,8 @@ torch.cuda.is_available()
 
 ### 7. Ultralytics
 
+For good practice, in the name of tidiness, make a directory for each of your projects that contain all its respective files 
+
 ```
 conda create -n yolov8 python=3.9
 conda activate yolov8
