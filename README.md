@@ -154,7 +154,7 @@ I will use the **yolov8x.pt model**
 yolo task=detect mode=predict model=yolov8x.pt source=cars.mp4 show=true conf=0.7 line_width=2
 ```
 
-As yoiu see my model automtically downloads itself upon use.
+As you see my model automtically downloads itself upon use.
 
  - ForestBuddy-V1
    
