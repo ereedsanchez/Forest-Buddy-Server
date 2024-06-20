@@ -100,9 +100,21 @@ Open up start menu and go to anaconda prompt and input this command to install
 
 ```
 python
+```
+
+<br>
+
+
+```
 import torch
 torch.__version__
 torch.cuda.is_available()
+```
+<br>
+
+To exit:
+```
+exit()
 ```
 
 ### 7. Ultralytics
@@ -134,6 +146,11 @@ python
 import torch
 torch.__version__
 torch.cuda.is_available()
+```
+
+To exit: 
+```
+exit()
 ```
 
 
@@ -211,7 +228,15 @@ line_width: # (int, optional) line width of the bounding boxes. Scaled to image 
 
 ## Training 
 
+If you are using PyCharm to train your model be sure to use terminal in pycharm to install ultralytics with:
 
+```
+pip install ultralytics
+```
+As PyCharm utilizes sandboxed virtual environements to run its code. Be sure to include any other dependencies you may need. <br>
+<br>
+<br>
+<br>
 
 ```
 from ultralytics import YOLO
@@ -224,14 +249,14 @@ model = YOLO("yolov8n.yaml")
 results = model.train(data="config.yaml", epochs=100)
 ```
 ```
-path: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8 #root_directory
-train: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8\train #relative path to path
-val: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8\valid #relative path to path
+path: C:\Users\YourName\Dataset\ *root_directory
+train: C:\Users\YourName\Dataset\ *train #relative path to path
+val: C:\Users\YourName\Dataset\ *valid #relative path to path
 
 
 #All classes
-names:
-  0: bird
+names: ['xxxx']
+  0: xxxx
  
 ```
 
