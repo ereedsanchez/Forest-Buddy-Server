@@ -105,6 +105,8 @@ torch.cuda.is_available()
 
 For good practice, in the name of tidiness, make a directory for each of your projects that contain all its respective files 
 
+I am using yolov8 so i will create a yolov8 virtual environment(venv)
+
 ```
 conda create -n yolov8 python=3.9
 conda activate yolov8
@@ -118,8 +120,9 @@ pip3 install --upgrade torch torchvision torchaudio --index-url https://download
 
 **And to make recheck and sure CUDA is activated for us to use re-enter these commands:
 
+
+
 ```
-#verify torch/cuda version
 python
 import torch
 torch.__version__
@@ -131,7 +134,26 @@ torch.cuda.is_available()
 
 
 ## Models
-  PYTorch 
+  To get started, navigate to directory created and activate your venv. I decided to make a yolov8 directory in my Users Directory
+  
+  
+  cd C:\Users\XXXXXXXXX\yolov8 
+
+ ```
+ conda activate yolov8
+ ```
+
+
+pick detection model for use case:[Link](https://github.com/ultralytics/ultralytics?tab=readme-ov-file)
+
+I will use the **yolov8x.pt model**
+
+```
+yolo task=detect mode=predict model=yolov8x.pt source=cars.mp4 show=true conf=0.7 line_width=2
+```
+
+As yoiu see my model automtically downloads itself upon use.
+
  - ForestBuddy-V1
    
 ## Training 
