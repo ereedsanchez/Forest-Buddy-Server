@@ -170,6 +170,31 @@ Set source=Directory
 [hide labels] hide_labels=true<br>
 [hide conf] hide_conf=true <br>
 line_width=1 <br>
+
+
+# Some other useful options: <br>
+
+# Predict settings 
+source: # (str, optional) source directory for images or videos
+vid_stride: 1 # (int) video frame-rate stride
+stream_buffer: False # (bool) buffer all streaming frames (True) or return the most recent frame (False)
+visualize: False # (bool) visualize model features
+augment: False # (bool) apply image augmentation to prediction sources
+agnostic_nms: False # (bool) class-agnostic NMS
+classes: # (int | list[int], optional) filter results by class, i.e. classes=0, or classes=[0,2,3]
+retina_masks: False # (bool) use high-resolution segmentation masks
+embed: # (list[int], optional) return feature vectors/embeddings from given layers
+
+# Visualize settings 
+show: False # (bool) show predicted images and videos if environment allows
+save_frames: False # (bool) save predicted individual video frames
+save_txt: False # (bool) save results as .txt file
+save_conf: False # (bool) save results with confidence scores
+save_crop: False # (bool) save cropped images with results
+show_labels: True # (bool) show prediction labels, i.e. 'person'
+show_conf: True # (bool) show prediction confidence, i.e. '0.99'
+show_boxes: True # (bool) show prediction boxes
+line_width: # (int, optional) line width of the bounding boxes. Scaled to image size if None.
    
 ## Training 
 
