@@ -88,8 +88,10 @@ Here we are using
 - Python
 - Cuda 12.1
 
-It should give you a command similar to :  conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-
+It should give you a command similar to :  
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+```
 Open up start menu and go to anaconda prompt and input this command to install
 
 
@@ -105,9 +107,10 @@ torch.cuda.is_available()
 
 ### 7. Ultralytics
 
-For good practice, in the name of tidiness, make a directory for each of your projects that contain all its respective files 
+For good practice, in the name of tidiness, make a directory for each of your projects that contain all its respective files. <br>
+I will create a folder called yolov8 in my C:\Users\YourName\ Directory and i will cd into that directory.
 
-I am using yolov8 so i will create a yolov8 virtual environment(venv)
+Because I am using yolov8, i will create a yolov8 virtual environment(venv)
 
 ```
 conda create -n yolov8 python=3.9
@@ -136,22 +139,24 @@ torch.cuda.is_available()
 
 
 ## Models
-  To get started, navigate to directory created and activate your venv. I decided to make a yolov8 directory in my Users Directory
+  To get started, navigate to the directory you created and activate your venv. I decided to make a yolov8 directory in my Users Directory
   
   
-  cd C:\Users\XXXXXXXXX\yolov8 
+  cd C:\Users\YourName\yolov8 
 
  ```
  conda activate yolov8
  ```
 
 
-pick detection model for use case:[Link](https://github.com/ultralytics/ultralytics?tab=readme-ov-file)
+Choose detection model for use case:[Link](https://github.com/ultralytics/ultralytics?tab=readme-ov-file)
 
-I will use the **yolov8x.pt model**
+I will use the **yolov8x.pt model** <br>
+Pick one that fits your use case. I usually use a form of one below.
 
 ```
 yolo task=detect mode=predict model=yolov8x.pt source=XXXXXXXXX show=true conf=0.7 line_width=2
+yolo task=classify mode=predict model=yolov8x-cls.pt source=XXXXXXXXX show=true conf=0.7 line_width=2
 ```
 
 As you see my model automtically downloads itself to my yolov8 directory upon use.
