@@ -151,11 +151,18 @@ pick detection model for use case:[Link](https://github.com/ultralytics/ultralyt
 I will use the **yolov8x.pt model**
 
 ```
-yolo task=detect mode=predict model=yolov8x.pt source=cars.mp4 show=true conf=0.7 line_width=2
+yolo task=detect mode=predict model=yolov8x.pt source=XXXXXXXXX show=true conf=0.7 line_width=2
 ```
 
-As you see my model automtically downloads itself upon use.
+As you see my model automtically downloads itself to my yolov8 directory upon use.
+**Be aware you will recieve an error due to source. so be sure to input a source file to be inferenced.**
 
+set source=photo.jpg
+set source=video.mp4
+set source=0 for Internal Webcam
+set source=http://CameraSource
+set source=Directory
+ 
  - ForestBuddy-V1
    
 ## Training 
