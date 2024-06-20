@@ -92,6 +92,40 @@ Open up start menu and go to anaconda prompt and input this command to install
 
 
 
+#### Verify torch/cuda version
+
+```
+python
+import torch
+torch.__version__
+torch.cuda.is_available()
+```
+
+### 7. Ultralytics
+
+```
+conda create -n yolov8 python=3.9
+conda activate yolov8
+pip install ultralytics
+```
+
+```
+pip3 install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+
+**And to make recheck and sure CUDA is activated for us to use re-enter these commands:
+
+```
+#verify torch/cuda version
+python
+import torch
+torch.__version__
+torch.cuda.is_available()
+```
+
+
+
 
 
 ## Models
