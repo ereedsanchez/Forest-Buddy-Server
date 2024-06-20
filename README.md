@@ -175,7 +175,7 @@ line_width=1 <br>
 
 # Some other useful options: <br>
 
-# Predict settings 
+## Predict settings 
 source: # (str, optional) source directory for images or videos <br>
 vid_stride: 1 # (int) video frame-rate stride <br>
 stream_buffer: False # (bool) buffer all streaming frames (True) or return the most recent frame (False) <br>
@@ -186,7 +186,7 @@ classes: # (int | list[int], optional) filter results by class, i.e. classes=0, 
 retina_masks: False # (bool) use high-resolution segmentation masks <br>
 embed: # (list[int], optional) return feature vectors/embeddings from given layers <br>
 
-# Visualize settings 
+## Visualize settings 
 show: False # (bool) show predicted images and videos if environment allows <br>
 save_frames: False # (bool) save predicted individual video frames <br>
 save_txt: False # (bool) save results as .txt file <br>
@@ -196,7 +196,12 @@ show_labels: True # (bool) show prediction labels, i.e. 'person' <br>
 show_conf: True # (bool) show prediction confidence, i.e. '0.99' <br>
 show_boxes: True # (bool) show prediction boxes <br>
 line_width: # (int, optional) line width of the bounding boxes. Scaled to image size if None. <br>
-   
+
+
+
+### More options can be found [here](https://docs.ultralytics.com/usage/cfg/)   
+
+
 ## Training 
 
 
