@@ -212,6 +212,19 @@ line_width: # (int, optional) line width of the bounding boxes. Scaled to image 
 ## Training 
 
 
+
+from ultralytics import YOLO
+
+# Create a new YOLO model from scratch
+model = YOLO("yolov8n.yaml")
+
+
+# Train the model using the 'coco8.yaml' dataset for 3 epochs
+results = model.train(data="config.yaml", epochs=100)
+
+
+
+
 ## FTP Server
 
 ## Scripts 
