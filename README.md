@@ -159,6 +159,7 @@ As you see my model automtically downloads itself to my yolov8 directory upon us
 
 Set source=photo.jpg <br> 
 Set source=video.mp4 <br> 
+Set source= Link to Youtube Video <br>
 Set source=0 for Internal Webcam <br> 
 Set source=http://CameraSource <br> 
 Set source=Directory 
