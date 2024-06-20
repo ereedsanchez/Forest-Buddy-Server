@@ -35,7 +35,7 @@ Upon installation, next > Confirm you want the packages to install and press nex
 
 Run the installer and press Next and be sure to Agree to Terms of Service.
 
-Click Just for Me
+Click **Just for Me**
 
 #### In **Advanced Installation Option** be sure to have checked 
 - Add Anaconda to my PATH Environment variable
@@ -49,7 +49,7 @@ Click Just for Me
 [Link](https://developer.nvidia.com/cuda-12-1-0-download-archive)
 
 
-***We choose CDUA 12.1 because it is supported by the latest stable version of PyTORCH (2.3.1)
+#### We choose CUDA 12.1 because it is supported by the latest stable version of PyTORCH (2.3.1)
 
 
 Choose appropriate options for Target Platform to download
@@ -126,9 +126,11 @@ pip3 install --upgrade torch torchvision torchaudio --index-url https://download
 **And to make recheck and sure CUDA is activated for us to use re-enter these commands:
 
 
-
 ```
 python
+```
+
+```
 import torch
 torch.__version__
 torch.cuda.is_available()
