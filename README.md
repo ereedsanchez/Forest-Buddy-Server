@@ -223,7 +223,17 @@ model = YOLO("yolov8n.yaml")
 # Train the model using the 'coco8.yaml' dataset for 3 epochs
 results = model.train(data="config.yaml", epochs=100)
 ```
+```
+path: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8 #root_directory
+train: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8\train #relative path to path
+val: C:\Users\Ab\Desktop\Downloaded _Models\Wildlife Detect.v3i.yolov8\valid #relative path to path
 
+
+#All classes
+names:
+  0: bird
+ 
+```
 
 
 ## FTP Server
