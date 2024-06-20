@@ -35,7 +35,7 @@ Upon installation, next > Confirm you want the packages to install and press nex
 
 Run the installer and press Next and be sure to Agree to Terms of Service.
 
-I chose to sandbox my installation Just for me
+Click Just for Me
 
 #### In **Advanced Installation Option** be sure to have checked 
 - Add Anaconda to my PATH Environment variable
