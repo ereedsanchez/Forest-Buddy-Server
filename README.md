@@ -157,13 +157,19 @@ yolo task=detect mode=predict model=yolov8x.pt source=XXXXXXXXX show=true conf=0
 As you see my model automtically downloads itself to my yolov8 directory upon use.
 **Be aware you will recieve an error due to source. so be sure to input a source file to be inferenced.**
 
-set source=photo.jpg
-set source=video.mp4
-set source=0 for Internal Webcam
-set source=http://CameraSource
-set source=Directory
- 
- - ForestBuddy-V1
+Set source=photo.jpg <br> 
+Set source=video.mp4 <br> 
+Set source=0 for Internal Webcam <br> 
+Set source=http://CameraSource <br> 
+Set source=Directory 
+
+[confidence] conf=0.5 <br>
+[show real time] show=true <br>
+[save bounding box info] save_txt=true <br>
+[save cropped obj] save_crop=true <br>
+[hide labels] hide_labels=true<br>
+[hide conf] hide_conf=true <br>
+line_width=1 <br>
    
 ## Training 
 
