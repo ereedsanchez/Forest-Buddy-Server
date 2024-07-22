@@ -153,10 +153,6 @@ To exit:
 exit()
 ```
 
-### Ending
-
-You have now have a working AI base on your computer. When running models with a youtube link, you may encounter errors. If you do enconter these errrors, attempt to run the model with a local video. If that also presents an error, attempt to uninstall Anaconda, and start again from step 3, skipping step 4 and 5.
-To figure out how to download and run your own model, follow the directions below.
 
 
 
@@ -264,7 +260,9 @@ names: ['xxxx']
   0: xxxx
  
 ```
+## Errors we've encountered.
 
+1. We ran into an issue when running the model itself, we used a youtube video as a source, and after it downloaded its depencies, it failed to open the youtube video. We uninstalled and reinstalled conda, and followed the steps from step 3 onwards, skipping step 4 and 5. if that fails, we recomend uninstalling all the installed files, and re-attempting the install.
 
 ## FTP Server
 
