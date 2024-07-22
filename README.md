@@ -153,6 +153,11 @@ To exit:
 exit()
 ```
 
+### Ending
+
+You have now have a working AI base on your computer. When running models with a youtube link, you may encounter errors. If you do enconter these errrors, attempt to run the model with a local video. If that also presents an error, attempt to uninstall Anaconda, and start again from step 3, skipping step 4 and 5.
+To figure out how to download and run your own model, follow the directions below.
+
 
 
 
