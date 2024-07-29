@@ -35,3 +35,8 @@ It is strongly recomended to add a password to the user. Remember, if left with 
 ### 5. Look over your user settings
 
 Lastly, ensure the user is enabled, that whoever logs in is able to read + write (or just write), and has a password. Aside from that you should have a working FTP Server. It is recomended that you test it by logging into your user from a external computer (ie your smartphone, laptop, etc.) and see if youre able to read and write and retrieve information.
+
+## Set up FTP on WyzCam 
+
+### 1.
+### 2. 
