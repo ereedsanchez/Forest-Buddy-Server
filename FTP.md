@@ -19,6 +19,8 @@ FileZilla should automatically open your ports for sending and reciving informat
 When logged onto FileZilla Server, go onto Server -> Configure... then select user. Once in user, select Add, and insert the name of the user. This is the username your clients will use to log onto your server.
 
 ![Model](https://github.com/ereedsanchez/Forest-Buddy-Server/blob/main/media/pics/Screenshot%202024-07-29%20132634.png?raw=true)
+![picture](/media/pics/Screenshot 2024-07-29 132634.png)
+
 
 ### 3. Set up your Virtual and Local path
 
