@@ -18,6 +18,8 @@ FileZilla should automatically open your ports for sending and reciving informat
 
 When logged onto FileZilla Server, go onto Server -> Configure... then select user. Once in user, select Add, and insert the name of the user. This is the username your clients will use to log onto your server.
 
+![Model](media/pics/Screenshot 2024-07-29 132634.png)
+
 ### 3. Set up your Virtual and Local path
 
 You're going to need to set up a Virtual Path, and a Native(local) path. The easiest course of action is to just set up a root path (ie. /) on your Virtual side, and then add the necessary directories. Afterwards, select where you want all the information to be stored within the server. Ensure you write out the entire path (ie C:\User\Your_User\Desktop\FTP_server).
