@@ -1,5 +1,5 @@
 # Forest-Buddy-Server
-Forest Buddy Server 
+Forest-Buddy-Server is an AI-powered platform that connects wildlife monitoring cameras through a wifi mesh network in forest environments, enabling seamless data transmission to a central on-site server. The system leverages YOLO-based object detection for automated wildlife identification and is currently being tested at Black Rock Forest and Bronx Community College, demonstrating its adaptability across different environmental monitoring applications. This documentation provides detailed instructions for deploying and configuring the Forest-Buddy server component, including prerequisites, installation steps, and troubleshooting guidance.
 
 ## Forest Buddy Install 
 Prerequisites
